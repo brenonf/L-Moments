@@ -19,7 +19,23 @@
 !C*  * Removed declarations of unused variables                         *
 !C*                                                                     *
 !C***********************************************************************
-!C
+!IBM SOFTWARE DISCLAIMER
+!-----------------------
+
+!LMOMENTS: Fortran routines for use with the method of L-moments
+
+!Permission to use, copy, modify and distribute this software for any purpose
+! and without fee is hereby granted, provided that this copyright and permission
+! notice appear on all copies of the software.  The name of the IBM Corporation
+!may not be used in any advertising or publicity pertaining to the use of the
+!software.  IBM makes no warranty or representations about the suitability of
+!the software for any purpose.  It is provided "AS IS" without any express or
+!implied warranty, including the implied warranties of merchantability, fitness
+!for a particular purpose and non-infringement.  IBM shall not be liable for any
+!direct, indirect, special or consequential damages resulting from the loss of
+!use, data or projects, whether in an action of contract or tort, arising out of
+! or in connection with the use or performance of this software.
+
 !C  EXAMPLE PROGRAM FOR CLUSTER ANALYSIS.  THE PROGRAM READS IN
 !C  ATTRIBUTES FOR A NUMBER OF SITES, TRANSFORMS THE ATTRIBUTES, FORMS
 !C  CLUSTERS BY WARD'S METHOD, PRINTS INFORMATION ABOUT THE CLUSTERS,
@@ -181,7 +197,7 @@
       STOP
 !C
  5000 FORMAT(A8,4F8.0)
- 6000 FORMAT(' MERGING SEQUENCE FROM WARD''S ALGORITHM'//)!Aqui eliminei algumas coisas p tentar rodar, porque de outra forma n„o tava dando p corrigir.
+ 6000 FORMAT(' MERGING SEQUENCE FROM WARD''S ALGORITHM'//)!Aqui eliminei algumas coisas p tentar rodar, porque de outra forma n√£o tava dando p corrigir.
  6010 FORMAT(1X,I3,I9,I10,I5,F12.2)
  6020 FORMAT(/' ASSIGNMENT OF SITES TO CLUSTERS')
  6030 FORMAT(1X,10I4)
